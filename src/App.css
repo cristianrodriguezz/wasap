@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;600&display=swap');
+html{
+  background-color: rgb(34, 34, 34);
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Space Grotesk', sans-serif;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
+}
+input{
+  border: none;
+  background-color: rgb(185, 185, 185);
+  border-radius: 10px;
+}
+button{
+  border: none;
+  background-color: rgb(185, 185, 185);
+  border-radius: 10px;
+}
