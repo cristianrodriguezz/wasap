@@ -4,6 +4,7 @@ html{
   display: grid;
   place-content: center;
   height: 100vh;
+  width: 100vw;
 }
 .container{
   display: flex;
@@ -11,21 +12,26 @@ html{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;  
+  width: 100vw;
 }
 form{
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.3rem;
+  width: 80vw;
 }
 input{
   border: none;
   background-color: rgb(185, 185, 185);
   border-radius: 10px;
+  height: 2rem;
 }
 button{
   border: none;
-  background-color: rgb(185, 185, 185);
+  background-color: rgb(26, 26, 26);
   border-radius: 10px;
+  height: 2rem;
+  color: #fff;
 }
