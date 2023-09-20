@@ -3,7 +3,7 @@ html{
   background-color: rgb(34, 34, 34);
   display: grid;
   place-content: center;
-  height: 100vh;
+  height: 75%;
   width: 100vw;
 }
 .container{
