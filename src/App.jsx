@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h2>WhatsApp</h2>
+      <h2>Chat de WhatsApp sin agendar</h2>
       <form action='submit' id='forum' onSubmit={handleSubmit} className=''>
         <label htmlFor="wasap">Ingresá el número: </label>
         <input type="number" name='wasap'id='wasap'/>
