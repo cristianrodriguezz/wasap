@@ -1,8 +1,6 @@
-# React + Vite
+# Whatsapp sin agendar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Con esta aplicación vas a poder enviar mensajes por whatsapp sin agendar.
 
-Currently, two official plugins are available:
+![image](https://github.com/cristianrodriguezz/wasap/assets/79176713/ac84caba-b183-4825-a1fd-44f8538f383e)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
