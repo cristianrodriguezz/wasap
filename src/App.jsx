@@ -4,6 +4,7 @@ import SelectCodeArea from './components/SelectCodeArea'
 import TextEditor from './components/TextEditor'
 import Error from './components/Error'
 import Wasap from './components/icons/Wasap'
+import GitHub from './components/icons/GitHub'
 
 function App() {
   const [error,setError] = useState('')
@@ -30,7 +31,8 @@ function App() {
 
 
   return (
-    <div className='grid place-content-center h-dvh font-figtree sm:bg-orange-100 '>
+    <>
+    <div className='grid place-content-center h-dvh font-figtree sm:bg-orange-100 relative my-2'>
       <div className='sm:px-10 sm:py-5 p-2 bg-white rounded-xl sm:shadow-as'>
         <div className='flex flex-col items-center justify-center mb-5'>
           <Wasap/>
@@ -50,7 +52,9 @@ function App() {
           {error && <Error error={error}/>}
         </div>
       </div>
+      <footer className='m-auto my-3'><a href='https://github.com/cristianrodriguezz'><GitHub/></a></footer>
     </div>
+    </>
   )
 }
 
